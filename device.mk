@@ -258,6 +258,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
 
+# PocketMode
+PRODUCT_PACKAGES += \
+    OneplusPocketMode
+
 # GPS
 PRODUCT_PACKAGES += \
     libcurl \
