@@ -176,7 +176,7 @@ TARGET_PROVIDES_KEYMASTER := true
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Lineage Hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(PLATFORM_PATH)/lineagehw|**/*.java
+JAVA_SOURCE_OVERLAYS := org.pixelexperience.keydisabler|$(PLATFORM_PATH)/keydisabler|**/*.java
 
 # Mainfest
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(PLATFORM_PATH)/configs/framework_manifest.xml
