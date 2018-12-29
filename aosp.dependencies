@@ -1,0 +1,31 @@
+[
+  {
+    "repository" : "packages_resources_OppoGestures",
+    "target_path": "packages/resources/OppoGestures",
+    "remote"     : "pixel"
+  },
+  {
+    "repository": "LineageOS/android_device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch": "lineage-16.0",
+    "remote": "github"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch": "lineage-16.0",
+    "remote": "github"
+  },
+  {
+    "repository": "markakash/android_kernel_oneplus_msm8996",
+    "target_path": "kernel/oneplus/msm8996",
+    "branch": "pie2",
+    "remote": "github"
+  },
+  { 
+    "repository": "packages_apps_WallpapersBReel2018",
+    "target_path": "packages/apps/WallpapersBReel2018",
+    "branch": "pie",
+    "remote": "pixel-gitlab"
+  }
+]
