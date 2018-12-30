@@ -5,9 +5,9 @@
     "remote"     : "pixel"
   },
   {
-    "repository":  "PotatoDevices/device_oppo_common",
+    "repository":  "ArrowOS-Devices/android_device_oppo_common_op3",
     "target_path": "device/oppo/common",
-    "branch": "baked-release",
+    "branch": "arrow-9.x",
     "remote": "github"
   },
   {
