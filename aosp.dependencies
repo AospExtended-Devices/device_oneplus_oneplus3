@@ -5,9 +5,9 @@
     "remote"     : "pixel"
   },
   {
-    "repository": "LineageOS/android_device_oppo_common",
+    "repository":  "PotatoDevices/device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "lineage-16.0",
+    "branch": "baked-release",
     "remote": "github"
   },
   {
