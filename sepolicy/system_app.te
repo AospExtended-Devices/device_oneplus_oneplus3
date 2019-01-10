@@ -12,3 +12,4 @@ r_dir_file(system_app, sysfs_zram)
 
 binder_call(system_app, ifaadaemon)
 binder_call(system_app, remosaic_daemon)
+allow system_app sysfs:file write;
