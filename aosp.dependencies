@@ -5,10 +5,9 @@
     "remote"     : "pixel"
   },
   {
-    "repository":  "ArrowOS-Devices/android_device_oppo_common_op3",
-    "target_path": "device/oppo/common",
-    "branch": "arrow-9.x",
-    "remote": "github"
+    "repository":  "device_oneplus_settings",
+    "target_path": "device/oneplus/settings",
+    "remote": "pixel"
   },
   {
     "repository": "TheMuppets/proprietary_vendor_oneplus",
