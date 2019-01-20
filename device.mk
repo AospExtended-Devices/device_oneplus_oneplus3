@@ -486,13 +486,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     WallpapersBReel2018
 
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libaacwrapper \
-    libnl
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Inherit from oneplus-settings
 $(call inherit-product, device/oneplus/settings/common.mk)
+
