@@ -395,14 +395,17 @@
          states. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
-    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">true</bool>
-
     <!-- Whether doze feature is enabled by default in settings. -->
     <bool name="config_doze_enabled_by_default">false</bool>
 
    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not 
          specified --> 
    <string name="default_wallpaper_component" translatable="false">com.breel.wallpapers18/com.breel.wallpapers18.soundviz.wallpaper.variations.SoundVizWallpaperV2</string>
+
+   <!-- Specify custom blanking delay of the display -->
+    <integer name="config_screen_off_delay">0</integer>
+
+  <!-- Specifies whether to decouple the auto-suspend state of the device from the display on/off state. -->
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
 
 </resources>
